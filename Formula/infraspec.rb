@@ -1,10 +1,10 @@
 class Infraspec < Formula
   desc "Test your cloud infrastructure in plain English, no code required."
   homepage "https://infraspec.sh"
-  url "https://github.com/robmorgan/infraspec/archive/refs/tags/v0.0.4.tar.gz"
-  sha256 "4218acf668c060633184d4b7519be7bc49ee233ef5abd4378f2eb4cf223e1ff5"
+  url "https://github.com/robmorgan/infraspec/archive/refs/tags/v0.0.5.tar.gz"
+  sha256 "9cdb7681effd7931c373dd63d7ed2214ce8315d242db17987c77ed4cae8f34ae"
   license "FCL-1.0-ALv2"
-  version "0.0.4"
+  version "0.0.5"
   head "https://github.com/robmorgan/infraspec.git", branch: "main"
 
   livecheck do
