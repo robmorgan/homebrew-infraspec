@@ -21,8 +21,6 @@ def install
     ]
 
     system "go", "build", *std_go_args(ldflags:), "cmd"
-
-    system bin/"hugo", "gen", "man", "--dir", man1
   end
 
   test do
