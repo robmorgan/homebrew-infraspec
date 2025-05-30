@@ -5,7 +5,7 @@ use it to install InfraSpec on MacOS and Linux using Homebrew.
 
 ## Install
 
-To install InfraSpec with Homebrew, aka. `brew`, run the following commands:
+To install InfraSpec with Homebrew, aka `brew`, run the following commands:
 
 ```bash
 brew tap robmorgan/infraspec
