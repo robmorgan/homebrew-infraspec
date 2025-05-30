@@ -11,13 +11,9 @@ class Infraspec < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args(ldflags: "-s -w")
-  end
-
-def install
     ldflags = %W[
       -s -w
-      -X github.com/robmorgan/infraspec/cmd.Version=#{tap.version}
+      -X github.com/robmorgan/infraspec/cmd.Version=#{version}
     ]
 
     system "go", "build", *std_go_args(ldflags:), "cmd"
