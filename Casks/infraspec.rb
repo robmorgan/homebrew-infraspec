@@ -2,7 +2,7 @@
 cask "infraspec" do
   desc "Test your cloud infrastructure in plain English, no code required."
   homepage "https://infraspec.sh"
-  version "0.0.13"
+  version "0.0.14"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "infraspec" do
 
   on_macos do
     on_intel do
-      url "https://github.com/robmorgan/infraspec/releases/download/v0.0.13/infraspec_0.0.13_darwin_amd64.tar.gz"
-      sha256 "0f59c072f74d5ecfbf3702337a85206b09abf0a514543bd673c8cb3aa465ae13"
+      url "https://github.com/robmorgan/infraspec/releases/download/v0.0.14/infraspec_0.0.14_darwin_amd64.tar.gz"
+      sha256 "2cb6f8d8a7a872bdf8dee1b697fa37c3d37e74a9896d1118c96197e0739cd33c"
     end
     on_arm do
-      url "https://github.com/robmorgan/infraspec/releases/download/v0.0.13/infraspec_0.0.13_darwin_arm64.tar.gz"
-      sha256 "7cadefb26feb1875325e3160a5e2184e160e9e1a20f7591b8c2f5f83d75aca62"
+      url "https://github.com/robmorgan/infraspec/releases/download/v0.0.14/infraspec_0.0.14_darwin_arm64.tar.gz"
+      sha256 "298540b50458c7b60483a9e6c6c44c3779ba51b8cf4187dc3d843945437c1218"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/robmorgan/infraspec/releases/download/v0.0.13/infraspec_0.0.13_linux_amd64.tar.gz"
-      sha256 "3524abc2bd63216b9218564a9a6ae7e7ae5fa6aea2e9eeda16cc4e46ca04f666"
+      url "https://github.com/robmorgan/infraspec/releases/download/v0.0.14/infraspec_0.0.14_linux_amd64.tar.gz"
+      sha256 "5218b76a8748bdc298425c45d54f2a728d6b87c64820cad2cc8371129c7a1c1b"
     end
     on_arm do
-      url "https://github.com/robmorgan/infraspec/releases/download/v0.0.13/infraspec_0.0.13_linux_arm64.tar.gz"
-      sha256 "ead1973d9c2171f5940d366fc0527859caa652246f19d4291b12fd6b8eaeade0"
+      url "https://github.com/robmorgan/infraspec/releases/download/v0.0.14/infraspec_0.0.14_linux_arm64.tar.gz"
+      sha256 "eb1599ca41d2006a464f83d7b9e617cee2a01e889a2c857c93a888e06527b99b"
     end
   end
 
